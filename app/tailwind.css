@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-white dark:bg-gray-950;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+.heroGradient {
+  background: linear-gradient(
+    90deg,
+    #1046f98a,
+    #61ffd0b4 35%,
+    #f9799fc1 74%,
+    #fec388
+  );
+  transform: translateZ(100);
+  will-change: transform;
+  border-radius: 50%;
+}
+
+/* Custom styles for date input calendar icon */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.5);
+  transition: filter 0.2s ease-in-out;
+}
+
+input[type="date"]:focus::-webkit-calendar-picker-indicator {
+  filter: invert(0.3);
+}
+
+/* Dark mode styles */
+.dark input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.7);
+}
+
+.dark input[type="date"]:focus::-webkit-calendar-picker-indicator {
+  filter: invert(0.9);
+}
