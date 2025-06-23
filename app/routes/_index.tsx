@@ -15,7 +15,7 @@ export const meta: MetaFunction = () => {
 const featureCards = [
   {
     title: "Drag & Drop Interface",
-    description: "Easily add and arrange form fields with our intuitive drag-and-drop builder.",
+    description: "Quickly add and organize form fields using our simple drag-and-drop builder.",
     icon: (
       <svg
         className="h-6 w-6 text-white"
@@ -34,7 +34,7 @@ const featureCards = [
   },
   {
     title: "Real-time Validation",
-    description: "Get instant feedback with built-in validation for all form fields.",
+    description: "Ensure accuracy instantly with automatic field validation.",
     icon: (
       <svg
         className="h-6 w-6 text-white"
@@ -53,7 +53,7 @@ const featureCards = [
   },
   {
     title: "Easy Sharing",
-    description: "Share your forms with a unique link and collect responses instantly.",
+    description: "Generate a custom link to easily share your form and receive instant responses.",
     icon: (
       <svg
         className="h-6 w-6 text-white"
@@ -91,15 +91,13 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center">
             <h1 className="text-4xl tracking-tight font-extrabold text-[#2A004E] dark:text-[#DDE6ED] sm:text-5xl md:text-6xl">
-              <span className="block">Create Beautiful Forms</span>
-              <span className="block bg-gradient-to-r max-w-fit mx-auto text-center from-purple-600 to-red-500 bg-clip-text text-transparent">
-                In Minutes
+              <span className="block">Design Stunning Forms</span>
+              <span className="block bg-gradient-to-r max-w-fit mx-auto pb-2 text-center from-purple-600 to-red-500 bg-clip-text text-transparent">
+                Just In Few Drags
               </span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-base text-[#020024] dark:text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              Build custom forms with our intuitive drag-and-drop interface. Add
-              fields, configure settings, and share your forms with others in
-              seconds.
+              Easily build custom forms using our intuitive drag-and-drop interface. Add form fields, tweak settings, and share your forms with others—all in just a few clicks
             </p>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
               <div className="shadow relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-[#020024] to-[#2A004E] group-hover:from-[#B6B4ED] group-hover:to-[#EBB7E5] hover:text-white dark:bg-white  dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-transperent">
