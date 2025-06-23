@@ -82,7 +82,7 @@ export default function Index() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="min-h-screen bg-sky-50   dark:bg-gray-900">
       <Header />
 
       <main className="relative">
@@ -90,19 +90,19 @@ export default function Index() {
         <div className="heroGradient absolute left-1/2 top-[40%] h-2/5 w-4/5 -translate-x-1/2 -translate-y-1/2 rounded-full blur-3xl sm:blur-[150px] opacity-80"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center">
-            <h1 className="text-4xl tracking-tight font-extrabold text-blue-600 sm:text-5xl md:text-6xl">
+            <h1 className="text-4xl tracking-tight font-extrabold text-[#2A004E] dark:text-[#DDE6ED] sm:text-5xl md:text-6xl">
               <span className="block">Create Beautiful Forms</span>
-              <span className="block bg-gradient-to-r max-w-fit mx-auto text-center from-purple-600 to-pink-500 bg-clip-text text-transparent">
+              <span className="block bg-gradient-to-r max-w-fit mx-auto text-center from-purple-600 to-red-500 bg-clip-text text-transparent">
                 In Minutes
               </span>
             </h1>
-            <p className="mt-3 max-w-md mx-auto text-base text-gray-500 dark:text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+            <p className="mt-3 max-w-md mx-auto text-base text-[#020024] dark:text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
               Build custom forms with our intuitive drag-and-drop interface. Add
               fields, configure settings, and share your forms with others in
               seconds.
             </p>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-              <div className="shadow relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+              <div className="shadow relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-[#020024] to-[#2A004E] group-hover:from-[#B6B4ED] group-hover:to-[#EBB7E5] hover:text-white dark:bg-white  dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-transperent">
                 <Link
                   to="/builder"
                   className="w-full text-black hover:text-white dark:text-white font-bold flex items-center justify-center px-8 py-3 border border-transparent text-base md:py-4 md:text-lg md:px-10  relative  transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent"
@@ -123,16 +123,16 @@ export default function Index() {
                   data-aos="fade-up"
                   data-aos-delay={index * 200}
                 >
-                  <div className="flow-root bg-white dark:bg-gray-800 rounded-lg px-6 pb-8 relative group transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
-                    <div className="absolute inset-0 bg-gradient-to-r from-purple-500/0 via-purple-500/0 to-pink-500/0 rounded-lg group-hover:from-purple-500/10 group-hover:via-purple-500/5 group-hover:to-pink-500/10 transition-all duration-300" />
+                  <div className="flow-root bg-[#FFF2E0] dark:bg-gray-800 rounded-lg px-6 pb-8 relative group transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                    <div className="absolute inset-0 bg-gradient-to-r from-purple-500/0 via-purple-500/0 to-pink-500/0 rounded-lg group-hover:bg-[#DDE6ED] transition-all duration-300" />
                     <div className="-mt-6 relative">
-                      <div className="inline-flex items-center justify-center p-3 bg-blue-500 rounded-md shadow-lg group-hover:scale-110 transition-transform duration-300">
+                      <div className="inline-flex items-center justify-center p-3 bg-[#2A004E] rounded-md shadow-lg group-hover:scale-110 transition-transform duration-300">
                         {card.icon}
                       </div>
                       <h3 className="mt-8 text-lg font-medium text-gray-900 dark:text-white tracking-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
                         {card.title}
                       </h3>
-                      <p className="mt-5 text-base text-gray-500 dark:text-gray-300">
+                      <p className="mt-5 text-base text-gray-500 dark:text-gray-300 dark:group-hover:text-[#2A004E]">
                         {card.description}
                       </p>
                     </div>
