@@ -37,6 +37,7 @@ const FormFieldPreview = ({
             pattern={field.pattern}
           />
         );
+
       case 'textarea':
         return (
           <textarea
@@ -48,6 +49,7 @@ const FormFieldPreview = ({
             maxLength={field.maxLength}
           />
         );
+
       case 'dropdown':
         return (
           <div className="space-y-2">
@@ -69,6 +71,7 @@ const FormFieldPreview = ({
             )}
           </div>
         );
+
       case 'checkbox':
         return (
           <div className="flex items-center">
@@ -80,6 +83,7 @@ const FormFieldPreview = ({
             <label className="ml-2 text-gray-700 dark:text-gray-300">Checkbox option</label>
           </div>
         );
+
       case 'date':
         return (
           <input
@@ -89,7 +93,7 @@ const FormFieldPreview = ({
             min={field.min}
             max={field.max}
           />
-        );
+        ); 
       default:
         return null;
     }

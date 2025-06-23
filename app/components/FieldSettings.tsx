@@ -7,8 +7,10 @@ interface FieldSettingsProps {
 }
 
 export default function FieldSettings({ field, onUpdate, onDelete }: FieldSettingsProps) {
+
   const handleChange = (key: keyof FormField, value: any) => {
     onUpdate({ ...field, [key]: value });
+
   };
 
   const renderTypeSpecificSettings = () => {
@@ -30,7 +32,7 @@ export default function FieldSettings({ field, onUpdate, onDelete }: FieldSettin
             </div>
             <div className="space-y-2">
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
-                Max Length
+                  Max Length
               </label>
               <input
                 type="number"
@@ -41,7 +43,7 @@ export default function FieldSettings({ field, onUpdate, onDelete }: FieldSettin
             </div>
             <div className="space-y-2">
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
-                Pattern (RegEx)
+                 Pattern (RegEx)
               </label>
               <input
                 type="text"
