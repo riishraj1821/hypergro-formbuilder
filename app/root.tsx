@@ -22,7 +22,7 @@ export const links: LinksFunction = () => [
     href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
   },
   { rel: "icon", type: "image/png", href: "/logo.png" },
-  { rel: "canonical", href: "https://hyper-gro-form-builder.vercel.app/" },
+  { rel: "canonical", href: "https://hypergro-formbuilder.vercel.app/" },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -40,15 +40,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta property="og:title" content="HyperGro Forms" />
         <meta property="og:description" content="Build custom forms with our intuitive drag-and-drop interface. Add fields, configure settings, and share your forms with others in seconds." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://hyper-gro-form-builder.vercel.app/" />
-        <meta property="og:image" content="https://hyper-gro-form-builder.vercel.app/logo.png" />
+        <meta property="og:url" content="https://hypergro-formbuilder.vercel.app/" />
+        <meta property="og:image" content="https://hypergro-formbuilder.vercel.app/logo.png" />
         <meta property="og:image:type" content="image/png" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="HyperGro Forms" />
         <meta name="twitter:description" content="Build custom forms with our intuitive drag-and-drop interface. Add fields, configure settings, and share your forms with others in seconds." />
-        <meta name="twitter:image" content="https://hyper-gro-form-builder.vercel.app/logo.png" />
+        <meta name="twitter:image" content="https://hypergro-formbuilder.vercel.app/logo.png" />
         
         {/* JSON-LD */}
         <script
@@ -58,7 +58,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "HyperGro Forms",
-              url: "https://hyper-gro-form-builder.vercel.app/",
+              url: "https://hypergro-formbuilder.vercel.app/",
             }),
           }}
         />
